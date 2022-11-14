@@ -51,9 +51,3 @@ class ExtractMatches:
         matches_df.drop(columns=['home_team_managers', 'away_team_managers'], inplace = True)
         
         return matches_df
-
-
-
-
-
-
