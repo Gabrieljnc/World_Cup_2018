@@ -22,4 +22,3 @@ class ExtractCompetitions:
         competition_df = pd.DataFrame(list(zip(competition_name,season_name,competition_id,season_id)), columns=['Nome da Competição', 'Temporada', 'ID da Competição', 'ID da Temporada'])
 
         return competition_df
-
