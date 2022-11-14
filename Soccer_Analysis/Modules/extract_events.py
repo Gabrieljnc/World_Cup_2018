@@ -744,11 +744,3 @@ frames = {}
 
 for key, value in enumerate(dataframes):# index(key) and value
     frames[key] = value # assigning data frame from list to key in dictionary
-
-
-
-
-
-
-
-
