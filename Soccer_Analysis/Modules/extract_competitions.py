@@ -23,5 +23,3 @@ class ExtractCompetitions:
 
         return competition_df
 
-teste = ExtractCompetitions().competitions_list()
-print(teste)
