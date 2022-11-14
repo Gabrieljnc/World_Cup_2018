@@ -8,7 +8,7 @@ from sqlalchemy import create_engine
 competitions_to_db = extract_competitions.ExtractCompetitions().competitions_list()
 matches_to_db = extract_matches.ExtractMatches(43,3).matches_list()
 
-conn_string = 'postgresql://1922120013_TCC_Gabriel:1922120013_TCC_Gabriel@3.133.102.60/IESB_Soccer_Performance'
+conn_string = 'X'
 
 db = create_engine(conn_string)
 conn = db.connect()
@@ -29,5 +29,3 @@ cursor = conn.cursor()
   
 # conn.commit()
 conn.close()
-
-
